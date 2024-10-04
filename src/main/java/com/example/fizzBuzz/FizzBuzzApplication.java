@@ -11,6 +11,7 @@ public class FizzBuzzApplication {
 	}
 	public Object convert(int i) {
 		if(i == 2)  return "2";
+		if(i == 3)  return "Fizz";
         return "1";
     }
 
