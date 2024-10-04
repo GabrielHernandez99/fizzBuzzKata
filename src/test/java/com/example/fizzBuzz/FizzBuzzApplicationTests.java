@@ -20,6 +20,10 @@ class FizzBuzzApplicationTests {
 	void convert_3_to_fizz() {
 		assertEquals("Fizz", new FizzBuzzApplication().convert(3));
 	}
+	@Test
+	void convert_4_to_4() {
+		assertEquals("4", new FizzBuzzApplication().convert(4));
+	}
 
 
 }
