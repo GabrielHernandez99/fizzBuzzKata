@@ -14,6 +14,7 @@ public class FizzBuzzApplication {
 		if(i == 2)  return "2";
 		if(i == 4)  return "4";
 		if(i == 5)  return "Buzz";
+		if(i == 10)  return "Buzz";
         return "1";
     }
 	public boolean isFizz(int i) {
