@@ -10,6 +10,7 @@ public class FizzBuzzApplication {
 		SpringApplication.run(FizzBuzzApplication.class, args);
 	}
 	public String convert(int i) {
+		if(isFizz(i) && isBuzz(i)) return "FizzBuzz";
 		if(isFizz(i)) return "Fizz";
 		if(isBuzz(i)) return "Buzz";
         return String.valueOf(i);
