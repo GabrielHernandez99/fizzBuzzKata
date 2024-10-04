@@ -10,7 +10,7 @@ public class FizzBuzzApplication {
 		SpringApplication.run(FizzBuzzApplication.class, args);
 	}
 	public Object convert(int i) {
-        return null;
+        return "1";
     }
 
 }
