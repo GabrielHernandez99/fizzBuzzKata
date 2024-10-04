@@ -36,6 +36,10 @@ class FizzBuzzApplicationTests {
 	void convert_10_to_buzz() {
 		assertEquals("Buzz", new FizzBuzzApplication().convert(10));
 	}
+	@Test
+	void convert_15_to_fizzbuzz() {
+		assertEquals("FizzBuzz", new FizzBuzzApplication().convert(15));
+	}
 
 
 }
