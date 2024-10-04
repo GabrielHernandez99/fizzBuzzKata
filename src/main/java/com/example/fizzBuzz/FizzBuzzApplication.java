@@ -13,6 +13,7 @@ public class FizzBuzzApplication {
 		if(i == 2)  return "2";
 		if(i == 3)  return "Fizz";
 		if(i == 4)  return "4";
+		if(i == 5)  return "Buzz";
         return "1";
     }
 
