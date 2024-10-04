@@ -9,5 +9,8 @@ public class FizzBuzzApplication {
 	public static void main(String[] args) {
 		SpringApplication.run(FizzBuzzApplication.class, args);
 	}
+	public Object convert(int i) {
+        return null;
+    }
 
 }
