@@ -12,9 +12,7 @@ public class FizzBuzzApplication {
 	public String convert(int i) {
 		if(isFizz(i)) return "Fizz";
 		if(isBuzz(i)) return "Buzz";
-		if(i == 2)  return "2";
-		if(i == 4)  return "4";
-        return "1";
+        return String.valueOf(i);
     }
 	private boolean isBuzz(int i) {
 		return i % 5 == 0;
