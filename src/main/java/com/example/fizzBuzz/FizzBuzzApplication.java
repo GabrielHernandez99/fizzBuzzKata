@@ -11,12 +11,14 @@ public class FizzBuzzApplication {
 	}
 	public String convert(int i) {
 		if(isFizz(i)) return "Fizz";
+		if(isBuzz(i)) return "Buzz";
 		if(i == 2)  return "2";
 		if(i == 4)  return "4";
-		if(i == 5)  return "Buzz";
-		if(i == 10)  return "Buzz";
         return "1";
     }
+	private boolean isBuzz(int i) {
+		return i % 5 == 0;
+	}
 	public boolean isFizz(int i) {
 		return i % 3 == 0;
 	}
