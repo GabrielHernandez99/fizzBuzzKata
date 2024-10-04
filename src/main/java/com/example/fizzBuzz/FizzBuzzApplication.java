@@ -9,13 +9,15 @@ public class FizzBuzzApplication {
 	public static void main(String[] args) {
 		SpringApplication.run(FizzBuzzApplication.class, args);
 	}
-	public Object convert(int i) {
+	public String convert(int i) {
+		if(isFizz(i)) return "Fizz";
 		if(i == 2)  return "2";
-		if(i == 3)  return "Fizz";
 		if(i == 4)  return "4";
 		if(i == 5)  return "Buzz";
-		if(i == 6)  return "Fizz";
         return "1";
     }
+	public boolean isFizz(int i) {
+		return i % 3 == 0;
+	}
 
 }
